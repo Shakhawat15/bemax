@@ -1,0 +1,172 @@
+/* Medium Device.. */
+@media (min-width: 992px) and (max-width: 1200px){
+  .container{
+    width: 970px;
+  }
+  /* CTA Area */
+  .cta-text p {
+	font-size: 15px;
+  }
+  /* Features Area */
+  .single-features:hover .features-content {
+	transform: translateY(0);
+	padding: 15px;
+  }
+  .single-features:hover .features-icon i {
+  	margin-bottom: 15px;
+  	margin-top: 15px;
+  }
+  /* Choose Area */
+  .choose-list {
+	margin-bottom: 15px;
+  }
+  .choose-title i{
+    margin-bottom: 15px;
+  }
+  .choose-title p {
+	line-height: 22px;
+  }
+  /* Working Area */
+  .working-area .col-6 {
+	width: 100%;
+ }
+ /* Blog Area */
+ .blog-content h3{
+   margin-bottom: 10px;
+ }
+ .blog-content p {
+	line-height: 20px;
+	margin-bottom: 10px;
+  }
+  .testimonial-content {
+	margin-bottom: 22px;
+  }
+}
+/* Tablet Device */
+@media (min-width: 768px) and (max-width: 991px){
+  .container{
+    width: 750px;
+  }
+  .col-6{
+    width: 100%;
+  }
+  /* Features Area */
+  .features-area .col-4{
+    width: 50%;
+  }
+  .single-features {
+	margin-top: 15px;
+  }
+  /* Choose Area */
+  .choose-area .video{
+    margin-bottom: 30px;
+  }
+  /* Blog Area */
+  .blog-img a{
+    display: block;
+  }
+  /* Footer Area */
+  .footer-area .col-3{
+    width: 50%;
+  }
+  .footer-widget h3 {
+	margin-bottom: 30px;
+	margin-top: 10px;
+  }
+
+}
+/* Large Mobile */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+  .container{
+    width: 450px;
+  }
+}
+/* Small Mobile */
+@media (max-width: 767px){
+  .container{
+    width: 300px;
+  }
+  /* Menu */
+  .mean-container .mean-bar {
+	  margin-top: 35px;
+	  margin-bottom: 35px;
+  }
+  .mean-container .mean-nav ul li a.mean-expand {
+	  height: 26px;
+  }
+  /* ==== Column ==== */
+  .col-2{
+    width: 100%;
+  }
+  .col-3{
+    width: 100%;
+    float: none;
+  }
+  .col-4{
+    width: 100%;
+  }
+  .col-6{
+    width: 100%;
+  }
+  .col-8{
+    width: 100%;
+  }
+  /* Slider Area */
+  .single-slide h2 {
+	font-size: 45px;
+  }
+  .single-slide h4 {
+	font-size: 25px;
+  }
+  /* CTA Area */
+  .cta-text p {
+	text-align: center;
+  }
+  .cta-btn {
+	text-align: center;
+	margin-top: 12px;
+  }
+  /* Features Area */
+  .single-features {
+	margin-bottom: 10px;
+  }
+  .features-icon i {
+	margin-bottom: 20px;
+  }
+  .single-features:hover .features-content {
+	padding: 15px;
+  }
+  /* Choose Area */
+  .video {
+	margin-bottom: 30px;
+  }
+  /* Blog Area */
+  .blog-img {
+	width: 100%;
+  float: none;
+  }
+  .blog-img a{
+	display: block;
+  }
+  .blog-content {
+	padding-left: 0;
+	width: 100%;
+	margin-top: 20px;
+  }
+  .testimonial-wrapper .meta-content h4 {
+	margin-top: -5px;
+  }
+  /* Footer Area */
+  .footer-widget {
+	margin-top: 40px;
+  }
+  .footer-area{
+    text-align: center;
+  }
+  .footer-link li a::before {
+	display: none;
+  }
+  .footer-widget .bemax {
+	padding-right: 0;
+  }
+}
